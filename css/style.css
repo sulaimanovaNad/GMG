@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@300;400;500;700&family=Raleway&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.section{
+    width: 90%;
+    margin: auto;
+}
+
+.red{
+    color: #B20A09;
+}
+
+.white{
+    color: #fff;
+}
+
+button{
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+button:hover{
+    background: #B20A09;
+    transition: 1s;
+}
+
+/* ////////// HEADER //////////// */
+
+.logo{
+    width: 40%;
+}
+
+.menu-nav{
+    display: flex;
+}
+
+.menu{
+    width: 60%;
+}
+
+.menu a{
+    color: #2A2A2A;
+    border-bottom:2px solid #fff;
+}
+
+.menu a:hover{
+    transition: 1.5s;
+    border-bottom:2px solid #B20A09;
+}
+
+.menu .active{
+    border-bottom:2px solid #B20A09;
+}
+
+.mobile-container {
+    display: none;
+    color: #000;
+    border-radius: 10px;
+}
+  
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: #2A2A2A;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    border: 2px solid #B20A09;
+    color: #B20A09;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+/* ////////// MAIN //////////// */
+
+.section-one{
+    background: url(../image/bg-1.png);
+    background-size: cover;
+    height: 665px;
+}
+
+.title h1{
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+}
+
+h2::before{
+    content: '';
+    bottom: -7px;
+    width: 100px;
+    position: absolute;
+    border-bottom: 2px solid #FFD700;
+}
+
+.service{
+    width: 24%;
+    background: #fff;
+    border: 1px solid #FFD700;
+    box-shadow: 3px 3px 6px #949090;
+}
+
+.first-service{
+    background: url(../image/Rectangle\ 13.png);
+    background-size: cover;
+}
+
+.service-img{
+    height: 40px;
+}
+
+.service h6{
+    font-weight: 700;
+}
+
+.section-three{
+    background: url(../image/bg-2.png);
+    background-size: cover;
+    height: 850px;
+}
+
+.section-three .section{
+    margin:190px auto;
+}
+
+.section-description{
+    width: 37%;
+}
+
+.cart{
+    width: 32%;
+}
+
+.cart-img{
+    height: 200px;
+}
+
+.first-cart{
+    background: url(../image/img.png);
+    background-size: cover;
+}
+
+.second-cart{
+    background: url(../image/img\ \(1\).png);
+    background-size: cover;
+}
+
+.third-cart{
+    background: url(../image/img\ \(2\).png);
+    background-size: cover;
+}
+
+.cart h5{
+    color: #056088;
+}
+
+.cart p{
+    color: #2A2A2A;
+    width: 40%;
+}
+
+.cart button{
+    background: #B20A09;
+}
+
+.section-four{
+    background: url(../image/BG\ 3.png);
+    background-size: cover;
+    height: 600px;
+}
+
+.form{
+    background: rgba(241, 188, 4, 0.5);
+}
+
+.form input{
+    width: 46%;
+    outline: none;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.form textarea{
+    outline: none;
+    resize: none;
+}
+
+.form textarea::placeholder{
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-inputs{
+    display: flex;
+}
+
+/* ////////// FOOTER //////////// */
+
+footer{
+    background-color: #2A2A2A;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+footer .logo{
+    width: 10%;
+}
+
+footer p{
+    color: #fff;
+    margin-bottom: 4%;
+}
+
+.footer-section{
+    display: flex;
+}
